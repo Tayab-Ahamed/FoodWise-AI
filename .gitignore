@@ -1,0 +1,39 @@
+.venv/
+node_modules/
+dist/
+__pycache__/
+.pytest_cache/
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+.env
+artifacts/
+
+# Local credentials and environment overrides
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Runtime databases, caches, and logs
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.log
+.ruff_cache/
+.mypy_cache/
+coverage/
+.coverage
+htmlcov/
+
+# Generated demo-video projects include audio, render caches, and local fonts
+brag-output*/
+
+# Machine-specific files
+.DS_Store
+Thumbs.db
+.codex/
+.agents/

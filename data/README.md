@@ -1,0 +1,4 @@
+All supplied records are synthetic, generated with fixed seed 42. History: 90 days × 3 items = 270 rows; Friday attendance drops but production stays near a standard day; exam/festival attendance changes; rice has higher plate-waste ratio. Patterns are intentionally injected, not external validation.
+Use history_90_days.csv as default dataset. demo_accounting.csv is a separate one-row accounting/safety fixture; it has insufficient history for forecasting and must not replace the default history during the forecast demo.
+Inventory is anchored to demo date 2026-10-09; use selected as_of date, not today's system clock. Simulator fixture is a deterministic unit-test scenario, not fitted history.
+Store separate evaluation expectations in tests, never prewritten discovery answers in the application.

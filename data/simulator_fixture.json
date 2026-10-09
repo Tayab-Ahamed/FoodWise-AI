@@ -1,0 +1,18 @@
+{
+  "source": "synthetic",
+  "demand_samples_kg": [
+    78,
+    82,
+    86
+  ],
+  "baseline_prepared_kg": 100,
+  "candidate_prepared_kg": 85,
+  "cost_per_kg": 45,
+  "expected": {
+    "baseline_surplus_kg": 18,
+    "candidate_surplus_kg": 3.3333333333333335,
+    "candidate_shortage_kg": 0.3333333333333333,
+    "candidate_shortage_frequency": 0.3333333333333333,
+    "potential_cost_difference_inr": 675
+  }
+}

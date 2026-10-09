@@ -1,0 +1,92 @@
+.advisor-page { max-width: 1120px; margin: 2.6rem auto 1rem; }
+.advisor-heading { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; margin-bottom: 1.8rem; }
+.advisor-heading h1 { font-family: Georgia, serif; font-weight: 400; font-size: clamp(2rem, 4vw, 3.2rem); letter-spacing: -.04em; margin: .45rem 0 .7rem; }
+.advisor-heading h1 span { color: #9b552f; }
+.advisor-heading p, .advisor-footer { color: var(--muted); font-size: .88rem; line-height: 1.6; }
+.advisor-workspace { background: var(--surface); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; }
+.advisor-controls { display: flex; align-items: center; gap: 1.2rem; flex-wrap: wrap; border-bottom: 1px solid var(--border); padding: 1rem 1.5rem; background: #eef1e4; }
+.advisor-controls label { display: flex; align-items: center; gap: .6rem; font-size: .76rem; }
+.advisor-controls select { min-height: 36px; padding: .4rem 1.8rem .4rem .65rem; width: auto; }
+.advisor-readonly { display: flex; align-items: center; gap: .5rem; font-size: .78rem; font-weight: 600; margin-right: auto; }
+.advisor-model-status { font-size: .7rem; color: var(--muted); overflow-wrap: anywhere; }
+.advisor-sharing { padding: .8rem 1.5rem; border-bottom: 1px solid var(--border); }
+.advisor-sharing label { display: flex; gap: .6rem; align-items: center; font-size: .78rem; font-weight: 600; }
+.advisor-sharing input { width: 16px; height: 16px; accent-color: var(--green); flex-shrink: 0; }
+.advisor-sharing p { color: var(--muted); font-size: .7rem; line-height: 1.5; margin: .4rem 0 0 1.6rem; max-width: 85ch; }
+.advisor-conversation { padding: 1.8rem 2.4rem; max-height: 700px; min-height: 280px; overflow-y: auto; scrollbar-gutter: stable; }
+.advisor-welcome { text-align: center; padding: 1rem 0 1.5rem; display: grid; justify-items: center; }
+.advisor-leaf { color: var(--green); height: 65px; width: 65px; display: grid; place-items: center; background: #edf0df; border-radius: 50% 50% 44% 56%; margin-bottom: 1.1rem; }
+.advisor-welcome h2 { font-family: Georgia, serif; font-size: clamp(1.8rem, 3vw, 2.5rem); font-weight: 400; line-height: 1.14; margin: .8rem 0 1rem; }
+.advisor-welcome p { color: var(--muted); font-size: .84rem; line-height: 1.7; }
+.advisor-turn + .advisor-turn { margin-top: 2rem; }
+.advisor-user { margin: 0 0 1.3rem auto; background: #e8eddc; border: 1px solid #d8dfcb; border-radius: 15px 15px 3px 15px; padding: .9rem 1.2rem; max-width: 80%; width: fit-content; }
+.advisor-user small { color: var(--muted); font-size: .65rem; text-transform: uppercase; letter-spacing: .07em; }
+.advisor-user p { font-size: .9rem; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; margin-top: .25rem; }
+.advisor-reply { max-width: 94%; background: #f8f8ef; border-left: 2px solid #809575; border-radius: 0 12px 12px 0; padding: 1.3rem 1.5rem; }
+.advisor-reply-label { display: flex; align-items: center; gap: .5rem; flex-wrap: wrap; margin-bottom: 1.1rem; }
+.advisor-reply-label strong { font-size: .76rem; }
+.advisor-reply-label small { margin-left: auto; font-size: .65rem; color: var(--muted); }
+.advisor-fact + .advisor-fact { margin-top: 1rem; }
+.advisor-fact h3 { font-size: .86rem; font-weight: 650; margin-bottom: .35rem; }
+.advisor-fact p { font-size: .84rem; line-height: 1.7; overflow-wrap: anywhere; }
+.advisor-fallback { font-size: .77rem; line-height: 1.6; padding: .7rem .85rem; background: #f6edd8; border-radius: 6px; margin-bottom: 1rem; }
+.advisor-evidence { margin-top: 1.3rem; border-top: 1px solid var(--border); padding-top: .85rem; }
+.advisor-evidence > summary { display: flex; align-items: center; gap: .4rem; font-size: .75rem; font-weight: 600; list-style: none; }
+.advisor-evidence > summary::after { content: "+"; margin-left: auto; }
+.advisor-evidence[open] > summary::after { content: "−"; }
+.advisor-evidence article { margin-top: 1rem; padding-bottom: .8rem; border-bottom: 1px dotted var(--border); }
+.advisor-evidence article strong { font-size: .77rem; }
+.advisor-evidence article > p, .advisor-ids p { font-size: .72rem; line-height: 1.6; margin: .3rem 0; overflow-wrap: anywhere; }
+.advisor-evidence article > small { font-size: .65rem; color: var(--muted); }
+.advisor-reference-actions { display: flex; gap: .9rem; flex-wrap: wrap; margin: .6rem 0; }
+.advisor-reference-actions .link { font-size: .71rem; display: inline-flex; align-items: center; gap: .2rem; }
+.advisor-ids summary { font-size: .65rem; color: var(--muted); }
+.advisor-answer-note { display: block; font-size: .65rem; color: var(--muted); line-height: 1.6; margin-top: .9rem; }
+.advisor-error { padding: 1rem 1.5rem; background: #faece3; color: #8c3926; font-size: .85rem; line-height: 1.6; }
+.advisor-thinking { display: flex; align-items: center; gap: .5rem; padding: 1rem 0; font-size: .8rem; }
+.advisor-thinking i { height: 4px; width: 4px; background: #809575; border-radius: 50%; animation: advisor-breathe 1s ease-in-out infinite alternate; }
+.advisor-thinking i:nth-last-child(2) { animation-delay: .2s; }
+.advisor-thinking i:last-child { animation-delay: .4s; }
+@keyframes advisor-breathe { to { opacity: .25; transform: translateY(-3px); } }
+.advisor-bottom { border-top: 1px solid var(--border); padding: 1.3rem 2.4rem; }
+.advisor-suggestions { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .6rem; margin-bottom: 1.3rem; }
+.advisor-suggestions button { display: flex; align-items: center; justify-content: space-between; gap: .7rem; background: transparent; border: 1px solid var(--border); padding: .8rem; border-radius: 7px; font-size: .74rem; color: var(--ink); text-align: left; line-height: 1.5; transition: background .15s; }
+.advisor-suggestions button:hover { background: #eef1e4; border-color: #809575; }
+.advisor-suggestions svg { flex-shrink: 0; }
+.advisor-more > summary { color: var(--muted); font-size: .74rem; margin-bottom: 1rem; }
+.advisor-composer { display: flex; align-items: center; gap: .8rem; border: 1px solid #9da991; border-radius: 10px; padding: .7rem; background: #fffef8; }
+.advisor-composer textarea { width: 100%; min-width: 0; border: 0; resize: vertical; padding: .4rem; background: transparent; color: var(--ink); font-size: .85rem; line-height: 1.6; max-height: 160px; }
+.advisor-composer .button { flex-shrink: 0; }
+.advisor-compose-note { display: flex; justify-content: space-between; gap: .6rem; color: var(--muted); font-size: .65rem; margin: .5rem .2rem 1rem; }
+.advisor-context { border-top: 1px dotted var(--border); padding-top: .8rem; }
+.advisor-context > summary { font-size: .73rem; color: var(--muted); }
+.advisor-context > p { font-size: .72rem; line-height: 1.6; color: var(--muted); margin: .7rem 0; }
+.advisor-context > div { display: flex; align-items: end; flex-wrap: wrap; gap: 1rem; }
+.advisor-context label { display: grid; gap: .4rem; font-size: .73rem; }
+.advisor-context input, .advisor-context select { font-size: .78rem; padding: .6rem; max-width: 100%; }
+.advisor-context .link { font-size: .72rem; padding-block: .6rem; }
+.advisor-footer { text-align: center; font-size: .7rem; margin-top: 1rem; }
+@media (max-width: 768px) {
+  .advisor-heading { align-items: start; }
+  .advisor-heading .button { font-size: .72rem; padding: .65rem; white-space: nowrap; }
+  .advisor-heading p { font-size: .77rem; }
+  .advisor-conversation, .advisor-bottom { padding: 1.2rem; }
+  .advisor-controls { gap: .7rem; padding: .8rem 1rem; }
+  .advisor-model-status { flex-basis: 100%; }
+  .advisor-sharing { padding: .8rem 1rem; }
+  .advisor-suggestions { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .advisor-reply { max-width: 100%; padding: 1rem; }
+}
+@media (max-width: 440px) {
+  .advisor-page { margin-top: 1.8rem; }
+  .advisor-heading { flex-wrap: wrap; gap: .8rem; }
+  .advisor-heading .button { margin-left: auto; }
+  .advisor-conversation, .advisor-bottom { padding: .9rem; }
+  .advisor-suggestions { grid-template-columns: 1fr; }
+  .advisor-user { max-width: 94%; }
+  .advisor-composer { gap: .25rem; }
+  .advisor-composer .button { padding: .75rem; }
+  .advisor-composer .button span { display: none; }
+  .advisor-compose-note { font-size: .59rem; }
+}
+@media (prefers-reduced-motion: reduce) { .advisor-thinking i { animation: none; } }

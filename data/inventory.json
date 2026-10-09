@@ -1,0 +1,31 @@
+[
+  {
+    "batch_id": "INV-1",
+    "ingredient": "Tomatoes",
+    "quantity_kg": 12,
+    "expiry_date": "2026-10-10",
+    "storage_verified": true,
+    "allergens": [],
+    "source": "synthetic"
+  },
+  {
+    "batch_id": "INV-2",
+    "ingredient": "Paneer",
+    "quantity_kg": 5,
+    "expiry_date": "2026-10-11",
+    "storage_verified": null,
+    "allergens": [
+      "milk"
+    ],
+    "source": "synthetic"
+  },
+  {
+    "batch_id": "INV-3",
+    "ingredient": "Spinach",
+    "quantity_kg": 3,
+    "expiry_date": "2026-10-08",
+    "storage_verified": true,
+    "allergens": [],
+    "source": "synthetic"
+  }
+]

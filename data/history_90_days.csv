@@ -1,0 +1,271 @@
+record_id,date,meal,item,attendance,special_event,prepared_kg,consumed_kg,untouched_surplus_kg,plate_waste_kg,cost_per_kg,source
+R000-Rice,2026-07-11,lunch,Rice,202,none,51.36,40.72,6.56,4.08,45,synthetic
+R000-Dal,2026-07-11,lunch,Dal,202,none,25.68,21.78,2.51,1.39,70,synthetic
+R000-VegetableCurry,2026-07-11,lunch,Vegetable Curry,202,none,32.1,29.18,0.94,1.98,85,synthetic
+R001-Rice,2026-07-12,lunch,Rice,193,none,51.36,42.03,5.62,3.71,45,synthetic
+R001-Dal,2026-07-12,lunch,Dal,193,none,25.68,20.9,3.56,1.22,70,synthetic
+R001-VegetableCurry,2026-07-12,lunch,Vegetable Curry,193,none,32.1,25.47,5.34,1.29,85,synthetic
+R002-Rice,2026-07-13,lunch,Rice,202,none,51.36,44.49,2.53,4.34,45,synthetic
+R002-Dal,2026-07-13,lunch,Dal,202,none,25.68,23.07,1.09,1.52,70,synthetic
+R002-VegetableCurry,2026-07-13,lunch,Vegetable Curry,202,none,32.1,26.19,4.19,1.72,85,synthetic
+R003-Rice,2026-07-14,lunch,Rice,203,none,51.36,43.38,3.89,4.09,45,synthetic
+R003-Dal,2026-07-14,lunch,Dal,203,none,26.14,24.8,0.0,1.34,70,synthetic
+R003-VegetableCurry,2026-07-14,lunch,Vegetable Curry,203,none,32.1,27.16,3.63,1.31,85,synthetic
+R004-Rice,2026-07-15,lunch,Rice,206,none,51.36,44.62,1.1,5.64,45,synthetic
+R004-Dal,2026-07-15,lunch,Dal,206,none,25.68,24.2,0.05,1.43,70,synthetic
+R004-VegetableCurry,2026-07-15,lunch,Vegetable Curry,206,none,33.24,31.5,0.0,1.74,85,synthetic
+R005-Rice,2026-07-16,lunch,Rice,201,none,51.36,45.46,0.58,5.32,45,synthetic
+R005-Dal,2026-07-16,lunch,Dal,201,none,25.68,24.07,0.16,1.45,70,synthetic
+R005-VegetableCurry,2026-07-16,lunch,Vegetable Curry,201,none,32.1,29.74,0.96,1.4,85,synthetic
+R006-Rice,2026-07-17,lunch,Rice,136,none,51.36,28.92,19.82,2.62,45,synthetic
+R006-Dal,2026-07-17,lunch,Dal,136,none,25.68,14.9,10.06,0.72,70,synthetic
+R006-VegetableCurry,2026-07-17,lunch,Vegetable Curry,136,none,32.1,18.54,12.42,1.14,85,synthetic
+R007-Rice,2026-07-18,lunch,Rice,198,none,51.36,42.42,4.83,4.11,45,synthetic
+R007-Dal,2026-07-18,lunch,Dal,198,none,25.68,21.39,2.81,1.48,70,synthetic
+R007-VegetableCurry,2026-07-18,lunch,Vegetable Curry,198,none,32.1,28.66,1.7,1.74,85,synthetic
+R008-Rice,2026-07-19,lunch,Rice,195,none,51.36,44.32,2.84,4.2,45,synthetic
+R008-Dal,2026-07-19,lunch,Dal,195,none,25.68,21.44,2.73,1.51,70,synthetic
+R008-VegetableCurry,2026-07-19,lunch,Vegetable Curry,195,none,32.1,28.23,2.19,1.68,85,synthetic
+R009-Rice,2026-07-20,lunch,Rice,203,none,51.39,45.68,0.0,5.71,45,synthetic
+R009-Dal,2026-07-20,lunch,Dal,203,none,25.68,22.26,2.38,1.04,70,synthetic
+R009-VegetableCurry,2026-07-20,lunch,Vegetable Curry,203,none,32.1,28.08,2.55,1.47,85,synthetic
+R010-Rice,2026-07-21,lunch,Rice,195,none,51.36,44.35,1.24,5.77,45,synthetic
+R010-Dal,2026-07-21,lunch,Dal,195,none,25.68,21.38,2.97,1.33,70,synthetic
+R010-VegetableCurry,2026-07-21,lunch,Vegetable Curry,195,none,32.1,26.92,3.34,1.84,85,synthetic
+R011-Rice,2026-07-22,lunch,Rice,199,none,51.36,41.83,5.4,4.13,45,synthetic
+R011-Dal,2026-07-22,lunch,Dal,199,none,25.68,22.91,1.57,1.2,70,synthetic
+R011-VegetableCurry,2026-07-22,lunch,Vegetable Curry,199,none,32.1,28.32,1.85,1.93,85,synthetic
+R012-Rice,2026-07-23,lunch,Rice,198,none,51.36,39.95,5.97,5.44,45,synthetic
+R012-Dal,2026-07-23,lunch,Dal,198,none,25.68,22.71,1.88,1.09,70,synthetic
+R012-VegetableCurry,2026-07-23,lunch,Vegetable Curry,198,none,32.1,26.27,4.55,1.28,85,synthetic
+R013-Rice,2026-07-24,lunch,Rice,142,none,51.36,32.21,15.69,3.46,45,synthetic
+R013-Dal,2026-07-24,lunch,Dal,142,none,25.68,15.02,9.83,0.83,70,synthetic
+R013-VegetableCurry,2026-07-24,lunch,Vegetable Curry,142,none,32.1,21.71,9.11,1.28,85,synthetic
+R014-Rice,2026-07-25,lunch,Rice,208,none,52.8,48.55,0.0,4.25,45,synthetic
+R014-Dal,2026-07-25,lunch,Dal,208,none,25.84,24.32,0.0,1.52,70,synthetic
+R014-VegetableCurry,2026-07-25,lunch,Vegetable Curry,208,none,32.1,29.82,0.72,1.56,85,synthetic
+R015-Rice,2026-07-26,lunch,Rice,202,none,51.36,41.04,5.89,4.43,45,synthetic
+R015-Dal,2026-07-26,lunch,Dal,202,none,25.68,22.5,1.62,1.56,70,synthetic
+R015-VegetableCurry,2026-07-26,lunch,Vegetable Curry,202,none,32.12,30.52,0.0,1.6,85,synthetic
+R016-Rice,2026-07-27,lunch,Rice,200,none,51.36,40.23,5.83,5.3,45,synthetic
+R016-Dal,2026-07-27,lunch,Dal,200,none,25.68,24.13,0.26,1.29,70,synthetic
+R016-VegetableCurry,2026-07-27,lunch,Vegetable Curry,200,none,32.1,28.91,1.43,1.76,85,synthetic
+R017-Rice,2026-07-28,lunch,Rice,194,none,51.36,43.59,2.84,4.93,45,synthetic
+R017-Dal,2026-07-28,lunch,Dal,194,none,25.68,22.97,1.36,1.35,70,synthetic
+R017-VegetableCurry,2026-07-28,lunch,Vegetable Curry,194,none,32.1,25.4,5.33,1.37,85,synthetic
+R018-Rice,2026-07-29,lunch,Rice,192,none,51.36,43.57,2.12,5.67,45,synthetic
+R018-Dal,2026-07-29,lunch,Dal,192,none,25.68,23.03,1.42,1.23,70,synthetic
+R018-VegetableCurry,2026-07-29,lunch,Vegetable Curry,192,none,32.1,25.07,5.34,1.69,85,synthetic
+R019-Rice,2026-07-30,lunch,Rice,207,none,51.36,41.78,4.97,4.61,45,synthetic
+R019-Dal,2026-07-30,lunch,Dal,207,none,25.68,21.73,2.55,1.4,70,synthetic
+R019-VegetableCurry,2026-07-30,lunch,Vegetable Curry,207,none,32.37,30.85,0.0,1.52,85,synthetic
+R020-Rice,2026-07-31,lunch,Rice,140,none,51.36,30.8,17.49,3.07,45,synthetic
+R020-Dal,2026-07-31,lunch,Dal,140,none,25.68,16.85,7.88,0.95,70,synthetic
+R020-VegetableCurry,2026-07-31,lunch,Vegetable Curry,140,none,32.1,18.91,12.07,1.12,85,synthetic
+R021-Rice,2026-08-01,lunch,Rice,204,none,51.36,42.31,4.74,4.31,45,synthetic
+R021-Dal,2026-08-01,lunch,Dal,204,none,26.42,24.88,0.0,1.54,70,synthetic
+R021-VegetableCurry,2026-08-01,lunch,Vegetable Curry,204,none,32.1,28.62,1.8,1.68,85,synthetic
+R022-Rice,2026-08-02,lunch,Rice,194,none,51.36,40.35,6.85,4.16,45,synthetic
+R022-Dal,2026-08-02,lunch,Dal,194,none,25.68,22.45,2.07,1.16,70,synthetic
+R022-VegetableCurry,2026-08-02,lunch,Vegetable Curry,194,none,32.1,26.53,4.3,1.27,85,synthetic
+R023-Rice,2026-08-03,lunch,Rice,202,none,51.36,40.99,4.98,5.39,45,synthetic
+R023-Dal,2026-08-03,lunch,Dal,202,none,25.68,24.46,0.05,1.17,70,synthetic
+R023-VegetableCurry,2026-08-03,lunch,Vegetable Curry,202,none,32.1,27.33,3.07,1.7,85,synthetic
+R024-Rice,2026-08-04,lunch,Rice,195,none,51.36,38.88,7.31,5.17,45,synthetic
+R024-Dal,2026-08-04,lunch,Dal,195,none,25.68,22.38,2.01,1.29,70,synthetic
+R024-VegetableCurry,2026-08-04,lunch,Vegetable Curry,195,none,32.1,28.69,1.52,1.89,85,synthetic
+R025-Rice,2026-08-05,lunch,Rice,195,none,51.36,39.52,7.58,4.26,45,synthetic
+R025-Dal,2026-08-05,lunch,Dal,195,none,25.68,21.86,2.57,1.25,70,synthetic
+R025-VegetableCurry,2026-08-05,lunch,Vegetable Curry,195,none,32.1,28.54,1.78,1.78,85,synthetic
+R026-Rice,2026-08-06,lunch,Rice,208,none,51.36,42.22,4.65,4.49,45,synthetic
+R026-Dal,2026-08-06,lunch,Dal,208,none,25.68,22.79,1.36,1.53,70,synthetic
+R026-VegetableCurry,2026-08-06,lunch,Vegetable Curry,208,none,32.1,28.51,2.15,1.44,85,synthetic
+R027-Rice,2026-08-07,lunch,Rice,139,none,51.36,29.94,18.42,3.0,45,synthetic
+R027-Dal,2026-08-07,lunch,Dal,139,none,25.68,14.98,9.67,1.03,70,synthetic
+R027-VegetableCurry,2026-08-07,lunch,Vegetable Curry,139,none,32.1,19.36,11.44,1.3,85,synthetic
+R028-Rice,2026-08-08,lunch,Rice,201,none,51.36,39.4,6.59,5.37,45,synthetic
+R028-Dal,2026-08-08,lunch,Dal,201,none,25.68,23.76,0.26,1.66,70,synthetic
+R028-VegetableCurry,2026-08-08,lunch,Vegetable Curry,201,none,32.21,30.19,0.0,2.02,85,synthetic
+R029-Rice,2026-08-09,lunch,Rice,195,none,51.36,42.56,4.67,4.13,45,synthetic
+R029-Dal,2026-08-09,lunch,Dal,195,none,25.68,21.99,2.65,1.04,70,synthetic
+R029-VegetableCurry,2026-08-09,lunch,Vegetable Curry,195,none,32.1,26.8,3.42,1.88,85,synthetic
+R030-Rice,2026-08-10,lunch,Rice,196,none,51.36,44.35,2.18,4.83,45,synthetic
+R030-Dal,2026-08-10,lunch,Dal,196,none,25.68,21.72,2.45,1.51,70,synthetic
+R030-VegetableCurry,2026-08-10,lunch,Vegetable Curry,196,none,32.1,29.95,0.37,1.78,85,synthetic
+R031-Rice,2026-08-11,lunch,Rice,203,none,51.36,41.8,5.33,4.23,45,synthetic
+R031-Dal,2026-08-11,lunch,Dal,203,none,26.19,24.7,0.0,1.49,70,synthetic
+R031-VegetableCurry,2026-08-11,lunch,Vegetable Curry,203,none,32.1,28.81,1.44,1.85,85,synthetic
+R032-Rice,2026-08-12,lunch,Rice,193,none,51.36,42.24,4.42,4.7,45,synthetic
+R032-Dal,2026-08-12,lunch,Dal,193,none,25.68,23.31,1.21,1.16,70,synthetic
+R032-VegetableCurry,2026-08-12,lunch,Vegetable Curry,193,none,32.1,29.66,1.02,1.42,85,synthetic
+R033-Rice,2026-08-13,lunch,Rice,195,none,51.36,42.43,3.85,5.08,45,synthetic
+R033-Dal,2026-08-13,lunch,Dal,195,none,25.68,21.36,3.27,1.05,70,synthetic
+R033-VegetableCurry,2026-08-13,lunch,Vegetable Curry,195,none,32.1,29.54,1.02,1.54,85,synthetic
+R034-Rice,2026-08-14,lunch,Rice,142,none,51.36,31.37,16.63,3.36,45,synthetic
+R034-Dal,2026-08-14,lunch,Dal,142,none,25.68,16.31,8.41,0.96,70,synthetic
+R034-VegetableCurry,2026-08-14,lunch,Vegetable Curry,142,none,32.1,21.68,9.32,1.1,85,synthetic
+R035-Rice,2026-08-15,lunch,Rice,203,none,51.36,42.21,4.68,4.47,45,synthetic
+R035-Dal,2026-08-15,lunch,Dal,203,none,25.68,23.76,0.65,1.27,70,synthetic
+R035-VegetableCurry,2026-08-15,lunch,Vegetable Curry,203,none,32.1,27.76,2.55,1.79,85,synthetic
+R036-Rice,2026-08-16,lunch,Rice,193,none,51.36,40.49,5.35,5.52,45,synthetic
+R036-Dal,2026-08-16,lunch,Dal,193,none,25.68,23.86,0.68,1.14,70,synthetic
+R036-VegetableCurry,2026-08-16,lunch,Vegetable Curry,193,none,32.1,26.24,4.48,1.38,85,synthetic
+R037-Rice,2026-08-17,lunch,Rice,207,none,52.71,46.64,0.0,6.07,45,synthetic
+R037-Dal,2026-08-17,lunch,Dal,207,none,25.68,23.17,1.36,1.15,70,synthetic
+R037-VegetableCurry,2026-08-17,lunch,Vegetable Curry,207,none,32.71,30.76,0.0,1.95,85,synthetic
+R038-Rice,2026-08-18,lunch,Rice,202,none,52.26,46.71,0.0,5.55,45,synthetic
+R038-Dal,2026-08-18,lunch,Dal,202,none,25.68,20.95,3.35,1.38,70,synthetic
+R038-VegetableCurry,2026-08-18,lunch,Vegetable Curry,202,none,32.1,27.61,2.77,1.72,85,synthetic
+R039-Rice,2026-08-19,lunch,Rice,207,none,51.36,42.81,4.59,3.96,45,synthetic
+R039-Dal,2026-08-19,lunch,Dal,207,none,25.68,21.97,2.4,1.31,70,synthetic
+R039-VegetableCurry,2026-08-19,lunch,Vegetable Curry,207,none,32.1,28.21,2.18,1.71,85,synthetic
+R040-Rice,2026-08-20,lunch,Rice,203,none,51.36,41.52,4.95,4.89,45,synthetic
+R040-Dal,2026-08-20,lunch,Dal,203,none,25.68,22.16,2.24,1.28,70,synthetic
+R040-VegetableCurry,2026-08-20,lunch,Vegetable Curry,203,none,32.42,30.39,0.0,2.03,85,synthetic
+R041-Rice,2026-08-21,lunch,Rice,133,none,51.36,28.66,19.83,2.87,45,synthetic
+R041-Dal,2026-08-21,lunch,Dal,133,none,25.68,13.79,10.99,0.9,70,synthetic
+R041-VegetableCurry,2026-08-21,lunch,Vegetable Curry,133,none,32.1,19.38,11.71,1.01,85,synthetic
+R042-Rice,2026-08-22,lunch,Rice,154,exam,51.36,33.65,14.09,3.62,45,synthetic
+R042-Dal,2026-08-22,lunch,Dal,154,exam,25.68,16.25,8.65,0.78,70,synthetic
+R042-VegetableCurry,2026-08-22,lunch,Vegetable Curry,154,exam,32.1,22.95,7.58,1.57,85,synthetic
+R043-Rice,2026-08-23,lunch,Rice,151,exam,51.36,34.24,13.18,3.94,45,synthetic
+R043-Dal,2026-08-23,lunch,Dal,151,exam,25.68,16.3,8.58,0.8,70,synthetic
+R043-VegetableCurry,2026-08-23,lunch,Vegetable Curry,151,exam,32.1,20.56,10.14,1.4,85,synthetic
+R044-Rice,2026-08-24,lunch,Rice,155,exam,51.36,34.79,12.01,4.56,45,synthetic
+R044-Dal,2026-08-24,lunch,Dal,155,exam,25.68,16.86,7.94,0.88,70,synthetic
+R044-VegetableCurry,2026-08-24,lunch,Vegetable Curry,155,exam,32.1,20.44,10.33,1.33,85,synthetic
+R045-Rice,2026-08-25,lunch,Rice,156,exam,51.36,33.01,14.48,3.87,45,synthetic
+R045-Dal,2026-08-25,lunch,Dal,156,exam,25.68,16.55,7.99,1.14,70,synthetic
+R045-VegetableCurry,2026-08-25,lunch,Vegetable Curry,156,exam,32.1,23.15,7.33,1.62,85,synthetic
+R046-Rice,2026-08-26,lunch,Rice,155,exam,51.36,36.27,11.89,3.2,45,synthetic
+R046-Dal,2026-08-26,lunch,Dal,155,exam,25.68,18.31,6.38,0.99,70,synthetic
+R046-VegetableCurry,2026-08-26,lunch,Vegetable Curry,155,exam,32.1,23.32,7.25,1.53,85,synthetic
+R047-Rice,2026-08-27,lunch,Rice,156,exam,51.36,35.74,12.06,3.56,45,synthetic
+R047-Dal,2026-08-27,lunch,Dal,156,exam,25.68,18.67,6.1,0.91,70,synthetic
+R047-VegetableCurry,2026-08-27,lunch,Vegetable Curry,156,exam,32.1,23.23,7.31,1.56,85,synthetic
+R048-Rice,2026-08-28,lunch,Rice,101,exam,51.36,22.96,25.89,2.51,45,synthetic
+R048-Dal,2026-08-28,lunch,Dal,101,exam,25.68,11.02,13.94,0.72,70,synthetic
+R048-VegetableCurry,2026-08-28,lunch,Vegetable Curry,101,exam,32.1,13.84,17.61,0.65,85,synthetic
+R049-Rice,2026-08-29,lunch,Rice,195,none,51.36,40.3,5.85,5.21,45,synthetic
+R049-Dal,2026-08-29,lunch,Dal,195,none,25.68,23.89,0.53,1.26,70,synthetic
+R049-VegetableCurry,2026-08-29,lunch,Vegetable Curry,195,none,32.1,28.33,2.19,1.58,85,synthetic
+R050-Rice,2026-08-30,lunch,Rice,208,none,51.36,44.31,1.15,5.9,45,synthetic
+R050-Dal,2026-08-30,lunch,Dal,208,none,25.68,21.89,2.26,1.53,70,synthetic
+R050-VegetableCurry,2026-08-30,lunch,Vegetable Curry,208,none,32.1,27.67,2.5,1.93,85,synthetic
+R051-Rice,2026-08-31,lunch,Rice,196,none,51.36,39.8,7.27,4.29,45,synthetic
+R051-Dal,2026-08-31,lunch,Dal,196,none,25.68,23.14,1.3,1.24,70,synthetic
+R051-VegetableCurry,2026-08-31,lunch,Vegetable Curry,196,none,32.1,28.25,2.2,1.65,85,synthetic
+R052-Rice,2026-09-01,lunch,Rice,198,none,51.36,43.76,3.26,4.34,45,synthetic
+R052-Dal,2026-09-01,lunch,Dal,198,none,25.68,23.47,1.13,1.08,70,synthetic
+R052-VegetableCurry,2026-09-01,lunch,Vegetable Curry,198,none,32.1,29.95,0.38,1.77,85,synthetic
+R053-Rice,2026-09-02,lunch,Rice,204,none,51.36,45.43,0.5,5.43,45,synthetic
+R053-Dal,2026-09-02,lunch,Dal,204,none,25.68,22.86,1.73,1.09,70,synthetic
+R053-VegetableCurry,2026-09-02,lunch,Vegetable Curry,204,none,32.1,29.79,0.7,1.61,85,synthetic
+R054-Rice,2026-09-03,lunch,Rice,197,none,51.36,44.48,1.45,5.43,45,synthetic
+R054-Dal,2026-09-03,lunch,Dal,197,none,25.68,21.72,2.8,1.16,70,synthetic
+R054-VegetableCurry,2026-09-03,lunch,Vegetable Curry,197,none,32.1,27.58,2.98,1.54,85,synthetic
+R055-Rice,2026-09-04,lunch,Rice,137,none,51.36,27.93,20.44,2.99,45,synthetic
+R055-Dal,2026-09-04,lunch,Dal,137,none,25.68,16.56,8.08,1.04,70,synthetic
+R055-VegetableCurry,2026-09-04,lunch,Vegetable Curry,137,none,32.1,20.61,10.23,1.26,85,synthetic
+R056-Rice,2026-09-05,lunch,Rice,197,none,51.36,43.83,3.72,3.81,45,synthetic
+R056-Dal,2026-09-05,lunch,Dal,197,none,25.68,21.61,2.85,1.22,70,synthetic
+R056-VegetableCurry,2026-09-05,lunch,Vegetable Curry,197,none,32.1,28.18,2.17,1.75,85,synthetic
+R057-Rice,2026-09-06,lunch,Rice,199,none,51.36,43.13,4.04,4.19,45,synthetic
+R057-Dal,2026-09-06,lunch,Dal,199,none,25.68,22.26,1.9,1.52,70,synthetic
+R057-VegetableCurry,2026-09-06,lunch,Vegetable Curry,199,none,32.1,29.77,0.84,1.49,85,synthetic
+R058-Rice,2026-09-07,lunch,Rice,193,none,51.36,41.54,4.93,4.89,45,synthetic
+R058-Dal,2026-09-07,lunch,Dal,193,none,25.68,21.15,3.13,1.4,70,synthetic
+R058-VegetableCurry,2026-09-07,lunch,Vegetable Curry,193,none,32.1,28.34,1.99,1.77,85,synthetic
+R059-Rice,2026-09-08,lunch,Rice,196,none,51.36,41.15,6.58,3.63,45,synthetic
+R059-Dal,2026-09-08,lunch,Dal,196,none,25.68,21.33,3.12,1.23,70,synthetic
+R059-VegetableCurry,2026-09-08,lunch,Vegetable Curry,196,none,32.1,29.63,1.05,1.42,85,synthetic
+R060-Rice,2026-09-09,lunch,Rice,199,none,51.36,44.47,2.61,4.28,45,synthetic
+R060-Dal,2026-09-09,lunch,Dal,199,none,25.68,23.28,1.05,1.35,70,synthetic
+R060-VegetableCurry,2026-09-09,lunch,Vegetable Curry,199,none,32.1,26.96,3.47,1.67,85,synthetic
+R061-Rice,2026-09-10,lunch,Rice,192,none,51.36,42.62,3.43,5.31,45,synthetic
+R061-Dal,2026-09-10,lunch,Dal,192,none,25.68,20.44,4.09,1.15,70,synthetic
+R061-VegetableCurry,2026-09-10,lunch,Vegetable Curry,192,none,32.1,25.53,4.79,1.78,85,synthetic
+R062-Rice,2026-09-11,lunch,Rice,140,none,51.36,28.37,20.18,2.81,45,synthetic
+R062-Dal,2026-09-11,lunch,Dal,140,none,25.68,16.78,7.94,0.96,70,synthetic
+R062-VegetableCurry,2026-09-11,lunch,Vegetable Curry,140,none,32.1,20.72,10.09,1.29,85,synthetic
+R063-Rice,2026-09-12,lunch,Rice,208,none,51.36,44.7,0.68,5.98,45,synthetic
+R063-Dal,2026-09-12,lunch,Dal,208,none,26.52,25.0,0.0,1.52,70,synthetic
+R063-VegetableCurry,2026-09-12,lunch,Vegetable Curry,208,none,32.29,30.51,0.0,1.78,85,synthetic
+R064-Rice,2026-09-13,lunch,Rice,205,none,51.36,43.83,1.78,5.75,45,synthetic
+R064-Dal,2026-09-13,lunch,Dal,205,none,25.68,24.17,0.12,1.39,70,synthetic
+R064-VegetableCurry,2026-09-13,lunch,Vegetable Curry,205,none,32.1,28.11,2.53,1.46,85,synthetic
+R065-Rice,2026-09-14,lunch,Rice,242,festival,60.55,54.44,0.0,6.11,45,synthetic
+R065-Dal,2026-09-14,lunch,Dal,242,festival,29.63,28.15,0.0,1.48,70,synthetic
+R065-VegetableCurry,2026-09-14,lunch,Vegetable Curry,242,festival,33.85,32.15,0.0,1.7,85,synthetic
+R066-Rice,2026-09-15,lunch,Rice,196,none,51.36,41.04,5.68,4.64,45,synthetic
+R066-Dal,2026-09-15,lunch,Dal,196,none,25.68,21.07,3.52,1.09,70,synthetic
+R066-VegetableCurry,2026-09-15,lunch,Vegetable Curry,196,none,32.1,28.51,1.79,1.8,85,synthetic
+R067-Rice,2026-09-16,lunch,Rice,193,none,51.36,41.0,5.72,4.64,45,synthetic
+R067-Dal,2026-09-16,lunch,Dal,193,none,25.68,21.74,2.83,1.11,70,synthetic
+R067-VegetableCurry,2026-09-16,lunch,Vegetable Curry,193,none,32.1,26.75,3.52,1.83,85,synthetic
+R068-Rice,2026-09-17,lunch,Rice,201,none,51.36,44.07,1.61,5.68,45,synthetic
+R068-Dal,2026-09-17,lunch,Dal,201,none,25.68,23.82,0.54,1.32,70,synthetic
+R068-VegetableCurry,2026-09-17,lunch,Vegetable Curry,201,none,32.1,26.33,4.33,1.44,85,synthetic
+R069-Rice,2026-09-18,lunch,Rice,144,none,51.36,32.2,14.85,4.31,45,synthetic
+R069-Dal,2026-09-18,lunch,Dal,144,none,25.68,16.03,8.62,1.03,70,synthetic
+R069-VegetableCurry,2026-09-18,lunch,Vegetable Curry,144,none,32.1,20.51,10.34,1.25,85,synthetic
+R070-Rice,2026-09-19,lunch,Rice,196,none,51.36,40.55,6.43,4.38,45,synthetic
+R070-Dal,2026-09-19,lunch,Dal,196,none,25.68,20.63,3.93,1.12,70,synthetic
+R070-VegetableCurry,2026-09-19,lunch,Vegetable Curry,196,none,32.1,28.64,1.86,1.6,85,synthetic
+R071-Rice,2026-09-20,lunch,Rice,195,none,51.36,42.6,4.8,3.96,45,synthetic
+R071-Dal,2026-09-20,lunch,Dal,195,none,25.68,22.8,1.82,1.06,70,synthetic
+R071-VegetableCurry,2026-09-20,lunch,Vegetable Curry,195,none,32.1,27.13,3.35,1.62,85,synthetic
+R072-Rice,2026-09-21,lunch,Rice,192,none,51.36,43.1,4.23,4.03,45,synthetic
+R072-Dal,2026-09-21,lunch,Dal,192,none,25.68,21.87,2.78,1.03,70,synthetic
+R072-VegetableCurry,2026-09-21,lunch,Vegetable Curry,192,none,32.1,26.87,3.86,1.37,85,synthetic
+R073-Rice,2026-09-22,lunch,Rice,197,none,51.36,44.57,2.1,4.69,45,synthetic
+R073-Dal,2026-09-22,lunch,Dal,197,none,25.68,23.06,1.09,1.53,70,synthetic
+R073-VegetableCurry,2026-09-22,lunch,Vegetable Curry,197,none,32.1,27.08,3.72,1.3,85,synthetic
+R074-Rice,2026-09-23,lunch,Rice,192,none,51.36,40.81,4.99,5.56,45,synthetic
+R074-Dal,2026-09-23,lunch,Dal,192,none,25.68,21.18,3.19,1.31,70,synthetic
+R074-VegetableCurry,2026-09-23,lunch,Vegetable Curry,192,none,32.1,28.34,2.0,1.76,85,synthetic
+R075-Rice,2026-09-24,lunch,Rice,204,none,52.48,47.86,0.0,4.62,45,synthetic
+R075-Dal,2026-09-24,lunch,Dal,204,none,25.68,21.53,3.08,1.07,70,synthetic
+R075-VegetableCurry,2026-09-24,lunch,Vegetable Curry,204,none,32.1,27.08,3.33,1.69,85,synthetic
+R076-Rice,2026-09-25,lunch,Rice,141,none,51.36,28.82,19.05,3.49,45,synthetic
+R076-Dal,2026-09-25,lunch,Dal,141,none,25.68,16.8,8.04,0.84,70,synthetic
+R076-VegetableCurry,2026-09-25,lunch,Vegetable Curry,141,none,32.1,20.21,10.59,1.3,85,synthetic
+R077-Rice,2026-09-26,lunch,Rice,194,none,51.36,43.14,2.42,5.8,45,synthetic
+R077-Dal,2026-09-26,lunch,Dal,194,none,25.68,20.85,3.86,0.97,70,synthetic
+R077-VegetableCurry,2026-09-26,lunch,Vegetable Curry,194,none,32.1,26.56,3.88,1.66,85,synthetic
+R078-Rice,2026-09-27,lunch,Rice,207,none,51.36,43.55,2.5,5.31,45,synthetic
+R078-Dal,2026-09-27,lunch,Dal,207,none,25.68,21.78,2.53,1.37,70,synthetic
+R078-VegetableCurry,2026-09-27,lunch,Vegetable Curry,207,none,32.1,30.22,0.42,1.46,85,synthetic
+R079-Rice,2026-09-28,lunch,Rice,204,none,51.7,46.32,0.0,5.38,45,synthetic
+R079-Dal,2026-09-28,lunch,Dal,204,none,25.68,21.49,2.68,1.51,70,synthetic
+R079-VegetableCurry,2026-09-28,lunch,Vegetable Curry,204,none,32.1,30.33,0.12,1.65,85,synthetic
+R080-Rice,2026-09-29,lunch,Rice,199,none,51.36,42.08,4.59,4.69,45,synthetic
+R080-Dal,2026-09-29,lunch,Dal,199,none,25.68,21.81,2.41,1.46,70,synthetic
+R080-VegetableCurry,2026-09-29,lunch,Vegetable Curry,199,none,32.1,29.94,0.71,1.45,85,synthetic
+R081-Rice,2026-09-30,lunch,Rice,207,none,51.36,45.02,0.6,5.74,45,synthetic
+R081-Dal,2026-09-30,lunch,Dal,207,none,25.68,24.29,0.02,1.37,70,synthetic
+R081-VegetableCurry,2026-09-30,lunch,Vegetable Curry,207,none,32.21,30.11,0.0,2.1,85,synthetic
+R082-Rice,2026-10-01,lunch,Rice,196,none,51.36,44.35,2.0,5.01,45,synthetic
+R082-Dal,2026-10-01,lunch,Dal,196,none,25.68,22.2,2.22,1.26,70,synthetic
+R082-VegetableCurry,2026-10-01,lunch,Vegetable Curry,196,none,32.1,28.97,1.61,1.52,85,synthetic
+R083-Rice,2026-10-02,lunch,Rice,146,none,51.36,33.81,14.47,3.08,45,synthetic
+R083-Dal,2026-10-02,lunch,Dal,146,none,25.68,17.67,7.09,0.92,70,synthetic
+R083-VegetableCurry,2026-10-02,lunch,Vegetable Curry,146,none,32.1,20.53,10.32,1.25,85,synthetic
+R084-Rice,2026-10-03,lunch,Rice,198,none,51.36,38.93,7.42,5.01,45,synthetic
+R084-Dal,2026-10-03,lunch,Dal,198,none,25.68,21.45,3.13,1.1,70,synthetic
+R084-VegetableCurry,2026-10-03,lunch,Vegetable Curry,198,none,32.1,29.52,0.98,1.6,85,synthetic
+R085-Rice,2026-10-04,lunch,Rice,206,none,51.36,46.38,0.33,4.65,45,synthetic
+R085-Dal,2026-10-04,lunch,Dal,206,none,25.68,21.3,2.9,1.48,70,synthetic
+R085-VegetableCurry,2026-10-04,lunch,Vegetable Curry,206,none,32.1,27.12,3.25,1.73,85,synthetic
+R086-Rice,2026-10-05,lunch,Rice,200,none,51.36,44.6,1.38,5.38,45,synthetic
+R086-Dal,2026-10-05,lunch,Dal,200,none,25.68,23.21,1.12,1.35,70,synthetic
+R086-VegetableCurry,2026-10-05,lunch,Vegetable Curry,200,none,32.1,29.96,0.69,1.45,85,synthetic
+R087-Rice,2026-10-06,lunch,Rice,196,none,51.36,44.01,2.88,4.47,45,synthetic
+R087-Dal,2026-10-06,lunch,Dal,196,none,25.68,22.53,1.85,1.3,70,synthetic
+R087-VegetableCurry,2026-10-06,lunch,Vegetable Curry,196,none,32.1,27.97,2.55,1.58,85,synthetic
+R088-Rice,2026-10-07,lunch,Rice,204,none,51.36,42.48,3.73,5.15,45,synthetic
+R088-Dal,2026-10-07,lunch,Dal,204,none,25.68,22.41,2.1,1.17,70,synthetic
+R088-VegetableCurry,2026-10-07,lunch,Vegetable Curry,204,none,32.1,27.35,3.36,1.39,85,synthetic
+R089-Rice,2026-10-08,lunch,Rice,194,none,51.36,41.66,4.53,5.17,45,synthetic
+R089-Dal,2026-10-08,lunch,Dal,194,none,25.68,21.03,3.57,1.08,70,synthetic
+R089-VegetableCurry,2026-10-08,lunch,Vegetable Curry,194,none,32.1,27.29,3.07,1.74,85,synthetic

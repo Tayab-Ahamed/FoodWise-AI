@@ -1,0 +1,2 @@
+record_id,date,meal,item,attendance,special_event,prepared_kg,consumed_kg,untouched_surplus_kg,plate_waste_kg,cost_per_kg,source
+DEMO-100,2026-10-09,lunch,Mixed cooked meal,200,none,100,82,10,8,45,synthetic
