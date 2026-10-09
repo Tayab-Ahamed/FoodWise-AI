@@ -1,6 +1,6 @@
 # FoodWise AI research and implementation review
 
-Reviewed 9 October 2026. This is a targeted engineering review, not an exhaustive systematic review of every publication or repository. Searches covered canteen demand, attendance, stochastic preparation, censored sales, plate-waste interventions, campus feedback, prediction uncertainty and ingredient stock management. Primary publications and source repositories were preferred. Access depth is explicit below: an abstract is not treated as a full-paper review. Original pack specifications and data remain the source of truth.
+Reviewed 9 October 2026. This is a targeted engineering review, not an exhaustive systematic review of every publication or repository. Searches covered canteen demand, attendance, stochastic preparation, censored sales, plate-waste interventions, campus feedback, prediction uncertainty and ingredient stock management. Primary publications and source repositories were preferred. Access depth is explicit below: an abstract is not treated as a full-paper review. The served-food accounting contract and generated-data provenance remain authoritative.
 
 ## Decisions implemented
 
@@ -36,7 +36,7 @@ All feature calculations are server-owned. SQLite stores optimization decisions 
 
 ## GitHub source review
 
-Pinned commits are the versions actually fetched. Selected code was read, not executed. No upstream source is copied into application files. The reproducible read-only cache script is `scripts/review_sources.py`; cache and manifest are ignored under `artifacts/research/`.
+Pinned commits are the versions actually fetched. Selected code was read, not executed. No upstream source is copied into application files. Research download helpers and cached upstream files are development artifacts and are not part of the published application.
 
 | Project / license verified | Pinned commit | Inspected files / conclusion |
 |---|---|---|
@@ -49,7 +49,7 @@ Pinned commits are the versions actually fetched. Selected code was read, not ex
 
 ## Executed experiment and updated belief
 
-Hypotheses were recorded in [RESEARCH_PLAN.md](RESEARCH_PLAN.md) before implementation/experiments. Run `python -m scripts.research_experiment` from the root using the installed virtual environment. It writes [research_results.json](research_results.json) from the unchanged supplied history, excluding the accounting fixture and current mutable demo database.
+The following table records the earlier exploratory experiment on the supplied generated history, excluding the accounting fixture and mutable SQLite records. It is a historical result, not field validation. The application exposes the same model comparisons in Plan next meal; mathematical and temporal-leakage behavior is covered by the backend tests.
 
 | Served target, last 14 evaluations | P0 MAE kg | Earlier mean MAE kg | Recent per-diner MAE kg | Weekday naive MAE kg | Calendar ridge MAE kg | Descriptive range coverage |
 |---|---:|---:|---:|---:|---:|---:|
@@ -63,7 +63,7 @@ With explicit illustrative shortage penalty ₹180/kg, surplus penalty equal to 
 
 The synthetic retrospective Rice comparison displayed 23.80 versus 24.62 g plate waste per diner. It shows an increase rather than manufacturing a reduction. Different event counts and synthetic source are visible. No intervention was performed and no causal attribution is made.
 
-Verification: original P0 plus new mathematical, constraint, leakage, provenance, trial and CSV compatibility tests; frontend type/build; live browser adoption/approval/report, capacity failure, prospective empty trial and synthetic retrospective comparison. Exact final results are in [RESEARCH_VALIDATION.md](RESEARCH_VALIDATION.md).
+Verification: original P0 plus new mathematical, constraint, leakage, provenance, trial and CSV compatibility tests; frontend type/build; live browser adoption/approval/report, capacity failure, prospective empty trial and synthetic retrospective comparison. Current checks are in [verification](PUBLISH_VALIDATION.md).
 
 ## Next evidence that could change these decisions
 

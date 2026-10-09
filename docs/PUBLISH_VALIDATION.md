@@ -1,25 +1,27 @@
-# GitHub publication verification
+# Verification
 
-Executed on Windows on 9 October 2026, before the first push to `Tayab-Ahamed/FoodWise-AI`.
+Executed on Windows on 9 October 2026 after repository cleanup.
+
+## Clean-source checks
+
+An isolated export contained only the **80 remaining tracked files**, with no local environment, original handoff pack, archived notes, or credentials. Installed dependencies were reused; application source and test data came from that export.
 
 | Check | Actual result |
 | --- | --- |
-| `.venv/Scripts/python.exe -m pytest backend/tests -q` | **163 passed**, 1 existing dependency warning, **16.08 s**; exit 0. |
-| `npm.cmd run typecheck` in `frontend/` | **Passed**; exit 0. |
-| `npm.cmd run build` in `frontend/` | **Passed**; Vite **6.4.4**, **2,190 modules**, **20.21 s**; exit 0. |
-| Publication preflight | **105 staged files**, six screenshots, **34 README file references** resolved to published files; no local credential values or recognized key patterns found. Local databases, environments, dependencies, and render artifacts excluded. |
-| Staged whitespace check | `git diff --cached --check` **passed** after removing one trailing blank line from the relocated guide. |
+| Backend domain and acceptance suite | **163 passed**, 1 existing warning, **16.30 s**; exit 0. |
+| Frontend TypeScript | **Passed**; exit 0. |
+| Frontend production build | **Passed**; Vite **6.4.4**, **2,190 modules**, **23.01 s**; exit 0. |
+| Publication review | Every originally tracked file reviewed; **25 obsolete files removed**, **80 retained**. Six README screenshots retained. |
+| README file references | **29 references** resolve to tracked files; removed documentation is no longer linked. |
+| Credential scan | No known local credential value or recognized API-key pattern found in staged content. Environments, databases, dependencies, and render artifacts remain excluded. |
+| Staged whitespace | `git diff --cached --check` passed. |
 
-The dependency warning is Starlette TestClient's existing deprecation of the httpx adapter; no domain assertion failed. Tests use isolated temporary SQLite databases. Application behavior and dependency versions were not changed for publication.
+The existing warning concerns Starlette TestClient's deprecated httpx adapter. No domain assertion failed. Tests use temporary SQLite databases and do not mutate the retained application database.
 
-## Earlier browser and video verification
+The cleanup removes startup prompts, original handoff/reference files, duplicate implementation journals, generated research output, development-only research helpers, and one unreachable legacy frontend component. Original pack material is retained locally outside the published tree. Application calculations and provider behavior are unchanged.
 
-The publication README reuses actual browser captures, copied intact into `docs/screenshots/`. The servers remain stopped as requested; they were not restarted for documentation work. See the screenshot README for capture context.
+## Earlier browser verification
 
-The connected video scenario previously passed 16 local assertions. Its 213.375-second, 1920×1080 H.264/AAC render passed full decoding, frame/caption/poster verification, and browser playback/chapter seeking. These are prior video checks, not checks rerun for this publication. Generated video projects and local render dependencies are excluded from Git.
+The connected judge scenario previously passed **16 local assertions** and was exercised in the browser. Screenshots in [screenshots/](screenshots/README.md) are intact captures from those sessions, not new mockups. These browser checks were not rerun for the file cleanup; the application servers remain stopped as requested.
 
-Provider calls are not part of this publication check. Earlier live provider results are recorded in [AI Kitchen Advisor validation](AI_KITCHEN_ADVISOR.md).
-
-## Publication boundaries
-
-The README's badges record the local checks above; they do not claim continuous integration or a hosted deployment. The project has no selected license. Credentials, SQLite databases, dependency directories, generated artifacts, and local font/video assets are excluded from the published source.
+The README badges record local verification, not hosted CI. Provider calls are not part of this cleanup check. See the [AI guide](AI_KITCHEN_ADVISOR.md) for the evidence and privacy boundary.

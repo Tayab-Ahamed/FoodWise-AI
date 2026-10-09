@@ -200,7 +200,7 @@ $env:FOODWISE_DB = 'backend/operations.sqlite3'
 .\.venv\Scripts\python.exe -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000
 ```
 
-This uses a separate empty database and disables practice reset, fixture, and simulated-handoff controls. Record weighed observations or preview a CSV import; uploaded records retain an unverified source label. The original practice database remains intact. [Detailed operations guide](docs/LOCAL_PROJECT_GUIDE.md).
+This uses a separate empty database and disables practice reset, fixture, and simulated-handoff controls. Record weighed observations or preview a CSV import; uploaded records retain an unverified source label. The original practice database remains intact. To return to practice mode, stop the backend, set `FOODWISE_DEMO='true'` and `FOODWISE_DB='backend/foodwise.sqlite3'` in that terminal, and restart it.
 
 ## Three-minute walkthrough
 
@@ -214,7 +214,7 @@ Use the seeded practice workspace and planning date **2026-10-09**, lunch, **160
 
 The one-row accounting fixture is deliberately separate from the **270-row / 90-day forecast history**. Do not replace forecast history with it. Repeated walkthroughs need distinct actual IDs or an explicit practice reset.
 
-[Exact click-by-click walkthrough](docs/DEMO_WALKTHROUGH.md) · [Original judge script](docs/06_JUDGE_DEMO.md)
+[Exact click-by-click walkthrough](docs/DEMO_WALKTHROUGH.md)
 
 ## Architecture
 
@@ -245,9 +245,8 @@ FoodWise-AI/
 │   ├── src/components/       # Simulator, evidence, recovery, landscape
 │   └── public/               # Bundled illustration and favicon
 ├── data/                     # Generated history and separate fixtures
-├── docs/                     # Specifications, research, validation, screenshots
-├── references/               # Original problem statement and workflow
-├── scripts/                  # Import fixtures, experiments, opt-in provider check
+├── docs/                     # Walkthrough, AI guide, research, checks, screenshots
+├── scripts/                  # Import fixtures and opt-in provider diagnostic
 └── .env.example              # Configuration template without credentials
 ```
 
@@ -289,17 +288,14 @@ Tests use isolated temporary databases. They cover CSV rollback, earlier-only tr
 
 | Guide | Contents |
 | --- | --- |
-| [Product specification](docs/01_PRODUCT.md) | Original goals and P0 scope |
-| [Domain and data](docs/02_DOMAIN_AND_DATA.md) | Accounting, forecasting, and safety contracts |
-| [API specification](docs/03_TECH_AND_API.md) | Routes and request/response design |
-| [Acceptance scenarios](docs/05_BUILD_AND_ACCEPTANCE.md) | Required behavior and verification |
+| [Judge walkthrough](docs/DEMO_WALKTHROUGH.md) | Setup, the connected workflow, CSV rehearsal, and reset |
 | [Research review](docs/RESEARCH_REVIEW.md) | Papers, open-source references, adopted methods, and limitations |
-| [AI Kitchen Advisor](docs/AI_KITCHEN_ADVISOR.md) | Provider boundary, privacy, and prior live checks |
-| [Local project guide](docs/LOCAL_PROJECT_GUIDE.md) | Extended setup, reset, CSV rehearsal, and feature notes |
+| [AI Kitchen Advisor](docs/AI_KITCHEN_ADVISOR.md) | Configuration, evidence boundary, privacy, and API examples |
+| [Verification](docs/PUBLISH_VALIDATION.md) | Executed domain tests, frontend checks, and publication review |
 
 ## Contributing and attribution
 
-Open an issue with the affected workflow, reproduction steps, and expected behavior. For changes, preserve source specifications and fixtures, keep calculations on the backend, and run the checks above. Do not submit credentials, operational databases, or private recipient records.
+Open an issue with the affected workflow, reproduction steps, and expected behavior. For changes, preserve data contracts and test fixtures, keep calculations on the backend, and run the checks above. Do not submit credentials, operational databases, or private recipient records.
 
 Map data: **© OpenStreetMap contributors**, displayed through Leaflet; weather context: **Open-Meteo**. The landscape is a bundled concept illustration. Research sources and adoption decisions are credited in the research review; screenshot context is documented alongside the images.
 
