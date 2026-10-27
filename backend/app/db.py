@@ -4,7 +4,7 @@ import os
 from pathlib import Path
 import sqlite3
 from contextlib import contextmanager
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from .schemas import Record
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -12,6 +12,12 @@ ROOT = Path(__file__).resolve().parents[2]
 
 def now():
     return datetime.now(timezone.utc).isoformat()
+
+
+def today():
+    """Current service date in the kitchen's timezone, independent of host locale."""
+    kitchen_timezone = timezone(timedelta(hours=5, minutes=30))
+    return datetime.fromisoformat(now()).astimezone(kitchen_timezone).date()
 
 
 def identifier(prefix):

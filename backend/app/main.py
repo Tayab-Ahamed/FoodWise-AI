@@ -348,7 +348,8 @@ def investigations():
 
 
 @app.get("/api/inventory")
-def inventory(as_of: date = date(2026, 10, 9), near_days: int = Query(default=2, ge=0, le=30)):
+def inventory(as_of: date | None = None, near_days: int = Query(default=2, ge=0, le=30)):
+    as_of = as_of or db.today()
     with db.connect() as conn:
         rows = []
         for r in db.all_objects(conn, "inventory"):

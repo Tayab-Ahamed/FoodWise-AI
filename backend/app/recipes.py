@@ -91,7 +91,8 @@ def register(app, require, audit):
             return {**item, **eligibility(item, request.review_date)}
 
     @router.get("/recipes/recommendations")
-    def suggest(as_of: date = date(2026, 10, 9), portions: int = Query(default=100, ge=1, le=100000), near_days: int = Query(default=2, ge=0, le=30)):
+    def suggest(as_of: date | None = None, portions: int = Query(default=100, ge=1, le=100000), near_days: int = Query(default=2, ge=0, le=30)):
+        as_of = as_of or db.today()
         with db.connect() as conn:
             return recommendations(db.all_objects(conn, "inventory"), as_of, portions, near_days)
 
